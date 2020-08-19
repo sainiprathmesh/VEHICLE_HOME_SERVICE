@@ -5,4 +5,4 @@
 | S. No.  | Date | Description |
 | :---: | :---: | :---: |
 | 1. | 19 Aug 2020  | Repository created |
-| 2. | 19 Aug 2020  | Project idea discussed with mentor |
+| 2. | 19 Aug 2020  | Project idea discussed with mentor 
