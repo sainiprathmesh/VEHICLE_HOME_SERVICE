@@ -592,7 +592,46 @@
                         </address>
                     </div>
                 </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="contact-form">
 
+                        <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+
+                        <form id="contactForm" name="sentMessage" novalidate>
+                            <h3>Contact Form</h3>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input class="form-control"
+                                           data-validation-required-message="Please enter your name"
+                                           id="name" placeholder="Full Name" required
+                                           type="text"/>
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input class="form-control"
+                                           data-validation-required-message="Please enter your email" id="email"
+                                           placeholder="Email" required
+                                           type="email"/>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <div class="controls">
+				 <textarea class="form-control" cols="100" data-validation-minlength-message="Min 5 characters"
+                           data-validation-required-message="Please enter your message" id="message" maxlength="999"
+                           minlength="5" placeholder="Message"
+                           required
+                           rows="10" style="resize:none"></textarea>
+                                </div>
+                            </div>
+                            <div id="success"></div> <!-- For success/fail messages -->
+                            <button class="btn btn-primary pull-right" type="submit">Send</button>
+                            <br/>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
