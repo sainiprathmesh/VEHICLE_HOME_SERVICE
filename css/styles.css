@@ -6,3 +6,13 @@ body {
     color: #282828;
     line-height: 26px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
