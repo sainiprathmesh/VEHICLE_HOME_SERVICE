@@ -6,4 +6,4 @@
 | :---: | :---: | :---: |
 | 1. | 19 Aug 2020  | Repository created |
 | 2. | 19 Aug 2020  | Project idea discussed with mentor 
-https://sainiprathmesh.github.io/VEHICLE_HOME_SERVICE/
+
